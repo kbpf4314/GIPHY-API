@@ -27,6 +27,7 @@ function displayActorInfo() {
 
             // If the photo has an appropriate rating
             if (results[i].rating !== "r") {
+
                 // Create a div with the class "item"
                 let gifDiv = $("<div class='item'>");
 
@@ -39,7 +40,7 @@ function displayActorInfo() {
                 // Creating an image tag
                 let actorImage = $("<img>");
 
-                // Giving the image tag some attributes to be able play and pause gifs
+                // Giving the image tag attributes to play and pause gifs
                 actorImage.attr("src", results[i].images.fixed_height_still.url);
                 actorImage.attr("data-still", results[i].images.fixed_height_still.url);
                 actorImage.attr("data-animate", results[i].images.fixed_height.url);
@@ -97,6 +98,7 @@ function renderButtons() {
 $("#add-actor").on("click", function (event) {
 
     event.preventDefault();
+
     // This line grabs the input from the textbox
     let actorText = $("#actor-input").val().trim();
 
@@ -110,5 +112,6 @@ $("#add-actor").on("click", function (event) {
 // Adding a click event listener to all elements with a class of "actor-btn"
 $(document).on("click", ".actor-btn", displayActorInfo);
 
+// Final call
 renderButtons();
 
