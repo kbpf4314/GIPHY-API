@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://78.media.tumblr.com/3fbeacf60b7be4dd1310ba8aaef0bcf8/tumblr_p8zmqvuNJP1u1lpwho1_1280.jpg);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.jumbotron {
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.col-4 {
+    margin: 5px;
+}
+
+
+#buttons-view {
+    margin: 10px;
+}
+
+#actor-input {
+    margin-bottom: 5px;
+}
+
+#add-actor {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.actor-btn {
+    background-color: white;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box-width {
+        max-width: 250px;
+    }
+    #buttons-view {
+        max-width: 175px;
+    }
+
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
