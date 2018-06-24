@@ -57,7 +57,7 @@ img {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .box-width {
-        max-width: 250px;
+        min-width: 275px;
     }
     #buttons-view {
         max-width: 175px;
@@ -67,7 +67,7 @@ img {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     .box-width {
-        max-width: 250px;
+        min-width: 275px;
     }
     #buttons-view {
         max-width: 175px;
